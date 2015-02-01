@@ -11,5 +11,22 @@
   },
   "devDependencies": {
     "mocha": "2.1.0"
-  }
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "JavaScript",
+    "JSON",
+    "Parser",
+    "Immutable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiamGoodacre/immutable-json"
+  },
+  "bugs": {
+    "url": "https://github.com/LiamGoodacre/immutable-json/issues"
+  },
+  "homepage": "https://github.com/LiamGoodacre/immutable-json"
 }
