@@ -1,6 +1,6 @@
 {
   "name": "immutable-json",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Parse JSON into immutable.js collections",
   "main": "parser.js",
   "author": "Liam Goodacre",
@@ -8,5 +8,8 @@
   "dependencies": {
     "gen-json-parser": "1.1.5",
     "immutable": "3.6.2"
+  },
+  "devDependencies": {
+    "mocha": "2.1.0"
   }
 }

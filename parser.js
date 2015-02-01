@@ -7,7 +7,7 @@ var base = I.Map(I.List(
   ['null', 'boolean', 'string', 'number']
 ).map(withId));
 
-var generate = function (array, object) {
+var parseWith = function (array, object) {
   var config = base.merge(I.Map([
     ['array', array],
     ['object', object]
@@ -15,13 +15,11 @@ var generate = function (array, object) {
   return json.generate(config.toJS());
 };
 
-exports.generate = generate;
+exports.parseWith = parseWith;
 exports.parse = {
-  list_map: generate(I.List, I.Map),
-  seq_map: generate(I.Seq, I.Map),
-  set_map: {
-    normal: generate(I.Set, I.Map),
-    ordered: generate(I.OrderedSet, I.OrderedMap)
-  }
+  ListMap:       parseWith(I.List, I.Map),
+  SeqMap:        parseWith(I.Seq, I.Map),
+  SetMap:        parseWith(I.Set, I.Map),
+  SetMapOrdered: parseWith(I.OrderedSet, I.OrderedMap)
 };
 
