@@ -5,10 +5,10 @@ Parse JSON into immutable.js collections
 
 `IJSON.parse` is a collection of parsers, each interpretting JSON Arrays and Objects in different ways:
 
-`IJSON.parse.list_map` - views JSON Arrays as Immutable Lists, and Objects as Maps.
-`IJSON.parse.seq_map` - views JSON Arrays as Immutable Seqs, and Objects as Maps.
-`IJSON.parse.set_map.normal` - views JSON Arrays as Immutable Sets, and Objects as Maps.
-`IJSON.parse.set_map.ordered` - views JSON Arrays as Immutable OrderedSets, and Objects as OrderedMaps.
+* `IJSON.parse.list_map` - views JSON Arrays as Immutable Lists, and Objects as Maps.
+* `IJSON.parse.seq_map` - views JSON Arrays as Immutable Seqs, and Objects as Maps.
+* `IJSON.parse.set_map.normal` - views JSON Arrays as Immutable Sets, and Objects as Maps.
+* `IJSON.parse.set_map.ordered` - views JSON Arrays as Immutable OrderedSets, and Objects as OrderedMaps.
 
 
 ## Custom
