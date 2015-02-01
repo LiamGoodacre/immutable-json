@@ -1,13 +1,13 @@
 {
   "name": "immutable-json",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Parse JSON into immutable.js collections",
   "main": "parser.js",
   "private": true,
   "author": "Liam Goodacre",
   "license": "MIT",
   "dependencies": {
-    "gen-json-parser": "0.1.0",
+    "gen-json-parser": "1.1.5",
     "immutable": "3.6.2"
   }
 }
