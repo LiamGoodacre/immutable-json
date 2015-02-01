@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Parse JSON into immutable.js collections",
   "main": "parser.js",
-  "private": true,
   "author": "Liam Goodacre",
   "license": "MIT",
   "dependencies": {
